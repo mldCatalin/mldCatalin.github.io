@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="request.js"></script>
+    <script type="text/javascript" src="constants.js"></script>
+
+</head>
+
+<body>
+    
+    <br>
+    <input style="width: 600px; height: 20px;" type="text" placeholder="Type something..." id="text_field"></input>
+    </br>
+
+    <br>
+    <button type="button" onclick="callSentimentAnalysis()"> See how I'm feeling </button>
+    </br>
+
+    <h2> What we think about your text </h2>
+
+    <div id="overall_sentiment_analysis_response">
+    </div>
+
+    <!--
+    <h2> Each sentence's sentiment magnitude and score</h2>
+
+    <div id = "sentences_sentiment_analysis_response">
+    </div>
+    -->
+
+</body>
