@@ -9,19 +9,27 @@
 </head>
 
 <body>
-    
-    <br>
-    <input  style="width: 800px; height: 70px;" type="text" placeholder="Type something..." id="text_field"></input>
-    </br>
-
-    <br>
-    <button style="width: 400px; height: 55px;" type="button" onclick="callSentimentAnalysis()"> See how I'm feeling </button>
-    </br>
-
-    <h1> What we think about your text </h1>
-
-    <div id="overall_sentiment_analysis_response">
+   
+    <div align="center">
+    <input style="font-size: 25px; width: 800px; height: 70px;" type="text" placeholder="Type something..." id="text_field"></input>
     </div>
+
+    <br>
+    <div align="center">
+    <button style="font-size: 25px; width: 400px; height: 55px;" type="button" onclick="callSentimentAnalysis()"> See how I'm feeling </button>
+    </div>
+    </br>
+
+    <br>
+    <div align="center">
+    <h1> What we think about your text </h1>
+    </div>
+    </br>
+
+    <br>
+    <div align="center" id="overall_sentiment_analysis_response">
+    </div>
+    </br>
 
     <!--
     <h2> Each sentence's sentiment magnitude and score</h2>
