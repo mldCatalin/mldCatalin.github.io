@@ -15,7 +15,12 @@
     </br>
 
     <br>
-    <button type="button" onclick="callSentimentAnalysis()"> See how I'm feeling </button>
+    <button id="button" type="button" onclick="callSentimentAnalysis()"> See how I'm feeling </button>
+    <script>
+    function setButtonParam(){
+        document.getElementById('button').style.width = window.innerWidth/2 + "px";
+    }
+    </script>
     </br>
 
     <h2> What we think about your text </h2>
